@@ -1,0 +1,19 @@
+import java.util.*;
+public class forEach {
+
+    public static void main(String[] args){
+
+        ArrayList<Integer> myList = new ArrayList<>();
+
+        myList.add(39);
+        myList.add(48);
+        myList.add(437);
+
+        //let me print this with for each loop
+
+        for(int elem : myList){  //this is syntax of for each loop where elem is loop name
+            System.out.println(elem);
+        }
+
+    }
+}
